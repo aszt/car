@@ -7,9 +7,9 @@ spring:
     name: car
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://47.100.238.247:3306/qichezhijia?useUnicode=true&characterEncoding=utf-8&useSSL=false
-    username: hxp
-    password: Jb123456
+    url: jdbc:mysql://localhost:3306/qichezhijia?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: root
   #配置jpa
   jpa:
     hibernate:
